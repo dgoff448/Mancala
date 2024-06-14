@@ -6,6 +6,9 @@ from threading import Thread
 from time import sleep
 from pygame import mixer
 import mancala
+from colorama import just_fix_windows_console
+
+just_fix_windows_console()  # fixes colors for Windows 10 cmd
 
 def start(gMode):
     sg.theme("DarkGrey12")
