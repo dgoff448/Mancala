@@ -1,6 +1,8 @@
 import random
+
 # index 7 = player's bank
 # index 0 = computer's bank
+
 class Mancala:
     def __init__(self, gMode):
         gameModes = {'norm': [4, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 4, 4, 0],

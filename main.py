@@ -1,7 +1,4 @@
-import sys
-import os
 import PySimpleGUI as sg
-from pygame import mixer
 import mancalaGame
 
 

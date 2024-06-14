@@ -35,7 +35,7 @@ def start(gMode):
 
     def sfx(s):
         mixer.init()
-        mixer.music.load(f'{s}.mp3')
+        mixer.music.load(f'Sounds/{s}.mp3')
         mixer.music.play()
 
     def newGame():
