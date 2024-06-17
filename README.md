@@ -39,15 +39,36 @@ The Random game mode means that all regular pockets each start with a random amo
 <br>
 <br>
 
-## How To Run Program
-
-<br>
-<br>
-
 ## Computer Logic
-
+The computer was not designed to be mathematically perfect with the game. Instead, it was built to follow a list of priorities when determining its next move.<br><br>
+**Computer Logic Priority:**<br>
+1. Looks for move that would earn extra turn.
+2. Looks for move that would capture Player's points.
+3. Looks for move that prevents Player from capturing its points.
+4. Moves random pocket.
 <br>
 <br>
 
-## Libraries In Use
+## Libraries In Use 
+### main.py
+* PySimpleGUI
 
+### mancala.py
+* random
+
+### mancalaGame.py
+* sys
+* os
+* PySimpleGUI
+* threading
+* time
+* pygame
+* mancala
+* coloramaW
+
+<br>
+
+## How To Run Program
+Run "*python main.py*" in the command line.
+<br>
+(There is also some helpful debugging text/extra info that is printed to the command line.)
